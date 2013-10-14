@@ -7,7 +7,9 @@
 
 namespace Enjoy.ViewModels
 {
-    public class MainViewModel
+    using Catel.MVVM;
+
+    public class MainViewModel : ViewModelBase
     {
     }
 }
