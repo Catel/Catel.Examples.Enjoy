@@ -5,4 +5,4 @@ using System.Reflection;
 
 [assembly: AssemblyTitle("Enjoy!")]
 [assembly: AssemblyProduct("Enjoy!")]
-[assembly: AssemblyDescription("Windows Phone client for Enjoy!")]
+[assembly: AssemblyDescription("WinRT client for Enjoy!")]

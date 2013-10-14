@@ -7,9 +7,7 @@
 
 namespace Enjoy.Views
 {
-    using Microsoft.Phone.Controls;
-
-    public partial class MainPage : PhoneApplicationPage
+    public partial class MainPage : Catel.Phone.Controls.PhoneApplicationPage
     {
         // Constructor
 
