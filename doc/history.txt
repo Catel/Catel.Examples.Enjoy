@@ -1,0 +1,37 @@
+Enjoy! history
+==============
+
+(+) Added
+(*) Changed
+(-) Removed
+(x) Error / bug (fix)
+
+For more information about issues or new feature requests, please visit:
+
+Project website: http://www.catelproject.com
+Issue tracker:   http://www.catelproject.com/support/issue-tracker
+Documentation:   http://www.catelproject.com/support/documentation
+
+**********************************************************
+
+==================
+Version 1.0
+==================
+
+Release date:
+=============
+2013/xx/xx
+
+Added/fixed:
+============
+todo
+
+To-do:
+======
+See http://www.catelproject.com/support/issue-tracker
+
+Known issues:
+=============
+See http://www.catelproject.com/support/issue-tracker
+
+**********************************************************
