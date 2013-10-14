@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{46E04D31-0134-42B9-876C-D62616105325}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\history.txt = ..\doc\history.txt
+		..\doc\license.txt = ..\doc\license.txt
+		..\doc\readme.txt = ..\doc\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F48F25F-8236-48DA-9DE8-8C552FB924FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{09AE97E3-90F8-471B-8D8E-FB6FAA9DC44E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{99D7BE54-215C-43A8-AFDB-F0EF3EE17AC7}"
+	ProjectSection(SolutionItems) = preProject
+		..\lib\readme.txt = ..\lib\readme.txt
+		..\lib\repositories.config = ..\lib\repositories.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{7218D20A-FDEE-4EBC-AC26-5124C6049803}"
+	ProjectSection(SolutionItems) = preProject
+		Enjoy.sln.DotSettings = Enjoy.sln.DotSettings
+		nuget.config = nuget.config
+		StyleCop.Cache = StyleCop.Cache
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{D868182E-5EF5-4BE4-AE41-57F924950A1E}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\nuget\NuGet.exe = ..\tools\nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pepita", "pepita", "{CDC09335-BD24-49C3-8ADD-171C70E775AA}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\pepita\PepitaGet.dll = ..\tools\pepita\PepitaGet.dll
+		..\tools\pepita\PepitaGet.pdb = ..\tools\pepita\PepitaGet.pdb
+		..\tools\pepita\PepitaGet.targets = ..\tools\pepita\PepitaGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enjoy.Client.Wpf", "Enjoy.Client.Wpf\Enjoy.Client.Wpf.csproj", "{1C7AB471-E24E-4D5F-8703-90F30E00D41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enjoy.Server.DataAccess", "Enjoy.Server.DataAccess\Enjoy.Server.DataAccess.csproj", "{276D7C77-E057-48FB-8F82-293DA09CC2C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FA0E1588-C8C8-4344-89C7-01FC551F9852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.Wpf", "Client.Wpf", "{2B45AF35-EB4C-40A0-97CC-B6984661F112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enjoy.Server.BusinessLogic", "Enjoy.Server.BusinessLogic\Enjoy.Server.BusinessLogic.csproj", "{CBB2CB8A-BD86-411A-8D5C-AA994213B339}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.WindowsPhone", "Client.WindowsPhone", "{70683D54-93E8-4C95-8880-9259A505E89D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client.WinRT", "Client.WinRT", "{9515B3FF-5D89-4FC9-B2B1-D56CD800FD5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server.Wcf", "Server.Wcf", "{B07D3B36-93A0-41D0-BA87-6F68F4A685C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enjoy.Server.Wcf", "Enjoy.Server.Wcf\Enjoy.Server.Wcf.csproj", "{750E3F35-012A-42D0-A5DE-8402A7763FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7AB471-E24E-4D5F-8703-90F30E00D41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7AB471-E24E-4D5F-8703-90F30E00D41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7AB471-E24E-4D5F-8703-90F30E00D41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7AB471-E24E-4D5F-8703-90F30E00D41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276D7C77-E057-48FB-8F82-293DA09CC2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276D7C77-E057-48FB-8F82-293DA09CC2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276D7C77-E057-48FB-8F82-293DA09CC2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276D7C77-E057-48FB-8F82-293DA09CC2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB2CB8A-BD86-411A-8D5C-AA994213B339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB2CB8A-BD86-411A-8D5C-AA994213B339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB2CB8A-BD86-411A-8D5C-AA994213B339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB2CB8A-BD86-411A-8D5C-AA994213B339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750E3F35-012A-42D0-A5DE-8402A7763FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750E3F35-012A-42D0-A5DE-8402A7763FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750E3F35-012A-42D0-A5DE-8402A7763FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750E3F35-012A-42D0-A5DE-8402A7763FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0E1588-C8C8-4344-89C7-01FC551F9852} = {1F48F25F-8236-48DA-9DE8-8C552FB924FF}
+		{2B45AF35-EB4C-40A0-97CC-B6984661F112} = {1F48F25F-8236-48DA-9DE8-8C552FB924FF}
+		{70683D54-93E8-4C95-8880-9259A505E89D} = {1F48F25F-8236-48DA-9DE8-8C552FB924FF}
+		{9515B3FF-5D89-4FC9-B2B1-D56CD800FD5A} = {1F48F25F-8236-48DA-9DE8-8C552FB924FF}
+		{B07D3B36-93A0-41D0-BA87-6F68F4A685C2} = {1F48F25F-8236-48DA-9DE8-8C552FB924FF}
+		{D868182E-5EF5-4BE4-AE41-57F924950A1E} = {09AE97E3-90F8-471B-8D8E-FB6FAA9DC44E}
+		{CDC09335-BD24-49C3-8ADD-171C70E775AA} = {09AE97E3-90F8-471B-8D8E-FB6FAA9DC44E}
+		{276D7C77-E057-48FB-8F82-293DA09CC2C0} = {FA0E1588-C8C8-4344-89C7-01FC551F9852}
+		{CBB2CB8A-BD86-411A-8D5C-AA994213B339} = {FA0E1588-C8C8-4344-89C7-01FC551F9852}
+		{1C7AB471-E24E-4D5F-8703-90F30E00D41F} = {2B45AF35-EB4C-40A0-97CC-B6984661F112}
+		{750E3F35-012A-42D0-A5DE-8402A7763FCF} = {B07D3B36-93A0-41D0-BA87-6F68F4A685C2}
+	EndGlobalSection
+EndGlobal
