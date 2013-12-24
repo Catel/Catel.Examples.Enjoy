@@ -18,7 +18,7 @@ namespace Enjoy
         protected void Application_Start(object sender, EventArgs e)
         {
 #if DEBUG
-            LogManager.RegisterDebugListener(true);
+            LogManager.AddDebugListener(true);
 #endif
 
             var dependencyResolver = this.GetDependencyResolver();
