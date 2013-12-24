@@ -12,7 +12,7 @@ namespace Enjoy.Repositories
     using Catel.IoC;
     using Enjoy.DAL;
 
-    [ServiceLocatorRegistration(typeof (ITagRepository), RegistrationType.Transient)]
+    [ServiceLocatorRegistration(typeof(ITagRepository), ServiceLocatorRegistrationMode.Transient)]
     public class TagRepository : EntityRepositoryBase<Tag, int>, ITagRepository
     {
         #region Constructors

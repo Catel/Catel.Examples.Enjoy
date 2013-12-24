@@ -12,7 +12,7 @@ namespace Enjoy.Repositories
     using Catel.IoC;
     using Enjoy.DAL;
 
-    [ServiceLocatorRegistration(typeof(IGroupRepository), RegistrationType.Transient)]
+    [ServiceLocatorRegistration(typeof(IGroupRepository), ServiceLocatorRegistrationMode.Transient)]
     public class GroupRepository : EntityRepositoryBase<Group, int>, IGroupRepository
     {
         public GroupRepository(DbContext dbContext) 

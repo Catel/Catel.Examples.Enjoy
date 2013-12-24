@@ -12,7 +12,7 @@ namespace Enjoy.Repositories
     using Catel.IoC;
     using Enjoy.DAL;
 
-    [ServiceLocatorRegistration(typeof(ICategoryRepository), RegistrationType.Transient)]
+    [ServiceLocatorRegistration(typeof(ICategoryRepository), ServiceLocatorRegistrationMode.Transient)]
     public class CategoryRepository : EntityRepositoryBase<Category, int>, ICategoryRepository
     {
         public CategoryRepository(DbContext dbContext) 

@@ -12,7 +12,7 @@ namespace Enjoy.Repositories
     using Catel.IoC;
     using Enjoy.DAL;
 
-    [ServiceLocatorRegistration(typeof (IUserRepository), RegistrationType.Transient)]
+    [ServiceLocatorRegistration(typeof(IUserRepository), ServiceLocatorRegistrationMode.Transient)]
     public class UserRepository : EntityRepositoryBase<User, int>, IUserRepository
     {
         #region Constructors
