@@ -7,7 +7,7 @@
     <ProjectGuid>{276D7C77-E057-48FB-8F82-293DA09CC2C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Enjoy</RootNamespace>
+    <RootNamespace>Enjoy.Data</RootNamespace>
     <AssemblyName>Enjoy.Server.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

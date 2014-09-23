@@ -8,7 +8,7 @@
 namespace Enjoy.Data.Repositories
 {
     using Catel.Data.Repositories;
-    using DAL;
+    using Entities;
 
     public interface IUserRepository : IEntityRepository<User>
     {

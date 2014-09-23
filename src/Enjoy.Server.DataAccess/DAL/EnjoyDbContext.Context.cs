@@ -7,12 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Enjoy.DAL
+namespace Enjoy.Data
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+    using Entities;
+
     public partial class EnjoyDbContext : DbContext
     {
         public EnjoyDbContext()

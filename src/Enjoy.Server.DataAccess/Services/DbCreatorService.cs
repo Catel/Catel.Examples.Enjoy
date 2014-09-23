@@ -9,7 +9,6 @@ namespace Enjoy.Data.Services
 {
     using Catel.Data;
     using Catel.Logging;
-    using DAL;
 
     public class DbCreatorService : IDbCreatorService
     {
@@ -18,6 +17,9 @@ namespace Enjoy.Data.Services
         #endregion
 
         #region IDbCreatorService Members
+        /// <summary>
+        /// Creates the database if required.
+        /// </summary>
         public void CreateDatabaseIfRequired()
         {
             using (var dbContextManager = DbContextManager<EnjoyDbContext>.GetManager())

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Enjoy.DAL
+namespace Enjoy.Data.Entities
 {
     using System;
     using System.Collections.Generic;

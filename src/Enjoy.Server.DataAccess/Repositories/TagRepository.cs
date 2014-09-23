@@ -9,7 +9,7 @@ namespace Enjoy.Data.Repositories
 {
     using System.Data.Entity;
     using Catel.Data.Repositories;
-    using DAL;
+    using Entities;
 
     public class TagRepository : EntityRepositoryBase<Tag, int>, ITagRepository
     {

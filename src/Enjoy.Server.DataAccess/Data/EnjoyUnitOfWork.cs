@@ -8,7 +8,6 @@
 namespace Enjoy.Data
 {
     using Catel.Data;
-    using DAL;
 
     public class EnjoyUnitOfWork : UnitOfWork<EnjoyDbContext>
     {
