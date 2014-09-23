@@ -5,7 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Services
+namespace Enjoy.Data.Services
 {
     public interface IDbCreatorService
     {

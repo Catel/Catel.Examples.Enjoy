@@ -1,14 +1,14 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="IUserRepository.cs" company="Catel development team">
-//   Copyright (c) 2008 - 2013 Catel development team. All rights reserved.
+//   Copyright (c) 2008 - 2014 Catel development team. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Repositories
+namespace Enjoy.Data.Repositories
 {
     using Catel.Data.Repositories;
-    using Enjoy.DAL;
+    using DAL;
 
     public interface IUserRepository : IEntityRepository<User>
     {

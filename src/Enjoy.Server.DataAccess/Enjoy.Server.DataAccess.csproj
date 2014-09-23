@@ -101,6 +101,7 @@
     <Compile Include="DAL\User.cs">
       <DependentUpon>EnjoyDbContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataModule.cs" />
     <Compile Include="Data\EnjoyUnitOfWork.cs" />
     <Compile Include="ModuleInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

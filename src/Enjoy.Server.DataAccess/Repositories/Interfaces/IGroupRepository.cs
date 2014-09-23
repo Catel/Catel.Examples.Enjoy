@@ -5,10 +5,10 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Repositories
+namespace Enjoy.Data.Repositories
 {
     using Catel.Data.Repositories;
-    using Enjoy.DAL;
+    using DAL;
 
     public interface IGroupRepository : IEntityRepository<Group>
     {

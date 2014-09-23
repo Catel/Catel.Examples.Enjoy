@@ -1,22 +1,23 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="DbCreatorService.cs" company="Catel development team">
-//   Copyright (c) 2008 - 2013 Catel development team. All rights reserved.
+//   Copyright (c) 2008 - 2014 Catel development team. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Services
+namespace Enjoy.Data.Services
 {
     using Catel.Data;
-    using Catel.IoC;
     using Catel.Logging;
-    using Enjoy.DAL;
+    using DAL;
 
-    [ServiceLocatorRegistration(typeof(IDbCreatorService))]
     public class DbCreatorService : IDbCreatorService
     {
+        #region Constants
         private static readonly ILog Log = LogManager.GetCurrentClassLogger();
+        #endregion
 
+        #region IDbCreatorService Members
         public void CreateDatabaseIfRequired()
         {
             using (var dbContextManager = DbContextManager<EnjoyDbContext>.GetManager())
@@ -38,5 +39,6 @@ namespace Enjoy.Services
                 }
             }
         }
+        #endregion
     }
 }
