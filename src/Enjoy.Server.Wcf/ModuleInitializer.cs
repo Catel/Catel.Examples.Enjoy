@@ -12,8 +12,6 @@ public static class ModuleInitializer
     /// </summary>
     public static void Initialize()
     {
-        Catel.IoC.ServiceLocator.Default.AutoRegisterTypesViaAttributes = true;
 
-        AppDomain.CurrentDomain.PreloadAssemblies();
     }
 }
