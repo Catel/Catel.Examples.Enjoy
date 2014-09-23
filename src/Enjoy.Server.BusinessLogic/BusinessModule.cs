@@ -1,18 +1,17 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="DataModule.cs" company="Catel development team">
+// <copyright file="BusinessModule.cs" company="Catel development team">
 //   Copyright (c) 2008 - 2014 Catel development team. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Data
+namespace Enjoy.Business
 {
     using Catel;
     using Catel.IoC;
-    using Repositories;
-    using Services;
+    using Engines;
 
-    public class DataModule : IServiceLocatorInitializer
+    public class BusinessModule : IServiceLocatorInitializer
     {
         #region IServiceLocatorInitializer Members
         /// <summary>
@@ -24,13 +23,7 @@ namespace Enjoy.Data
         {
             Argument.IsNotNull(() => serviceLocator);
 
-            serviceLocator.RegisterType<IDbCreatorService, DbCreatorService>();
-
-            serviceLocator.RegisterType<ICategoryRepository, CategoryRepository>(RegistrationType.Transient);
-            serviceLocator.RegisterType<IGroupRepository, GroupRepository>(RegistrationType.Transient);
-            serviceLocator.RegisterType<IItemRepository, ItemRepository>(RegistrationType.Transient);
-            serviceLocator.RegisterType<ITagRepository, TagRepository>(RegistrationType.Transient);
-            serviceLocator.RegisterType<IUserRepository, UserRepository>(RegistrationType.Transient);
+            serviceLocator.RegisterType<ICategoryEngine, CategoryEngine>(RegistrationType.Transient);
         }
         #endregion
     }
