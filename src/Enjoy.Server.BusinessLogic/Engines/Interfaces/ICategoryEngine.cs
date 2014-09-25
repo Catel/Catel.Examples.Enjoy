@@ -1,16 +1,15 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IUserRepository.cs" company="Catel development team">
+// <copyright file="ICategoryEngine.cs" company="Catel development team">
 //   Copyright (c) 2008 - 2014 Catel development team. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Data.Repositories
+namespace Enjoy.Business.Engines
 {
-    using Catel.Data.Repositories;
-    using Entities;
+    using Data.Entities;
 
-    public interface IUserRepository : IEntityRepository<User>
+    public interface ICategoryEngine : IEntityEngine<Category>
     {
     }
 }

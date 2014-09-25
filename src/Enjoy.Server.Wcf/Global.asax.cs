@@ -10,7 +10,7 @@ namespace Enjoy
     using System;
     using Catel.IoC;
     using Catel.Logging;
-    using Enjoy.Services;
+    using Data.Services;
 
     public class Global : System.Web.HttpApplication
     {

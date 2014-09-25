@@ -1,23 +1,27 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="CategoryRepository.cs" company="Catel development team">
-//   Copyright (c) 2008 - 2013 Catel development team. All rights reserved.
+//   Copyright (c) 2008 - 2014 Catel development team. All rights reserved.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace Enjoy.Repositories
+namespace Enjoy.Data.Repositories
 {
     using System.Data.Entity;
     using Catel.Data.Repositories;
-    using Catel.IoC;
-    using Enjoy.DAL;
+    using Entities;
 
-    [ServiceLocatorRegistration(typeof(ICategoryRepository), ServiceLocatorRegistrationMode.Transient)]
     public class CategoryRepository : EntityRepositoryBase<Category, int>, ICategoryRepository
     {
-        public CategoryRepository(DbContext dbContext) 
+        #region Constructors
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CategoryRepository"/> class.
+        /// </summary>
+        /// <param name="dbContext">The database context.</param>
+        public CategoryRepository(DbContext dbContext)
             : base(dbContext)
         {
         }
+        #endregion
     }
 }
