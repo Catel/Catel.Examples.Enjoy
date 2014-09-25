@@ -7,15 +7,11 @@
 
 namespace Enjoy.Data.Services
 {
+    using Anotar.Catel;
     using Catel.Data;
-    using Catel.Logging;
 
     public class DbCreatorService : IDbCreatorService
     {
-        #region Constants
-        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
-        #endregion
-
         #region IDbCreatorService Members
         /// <summary>
         /// Creates the database if required.
@@ -28,15 +24,15 @@ namespace Enjoy.Data.Services
 
                 if (!dbContext.Database.Exists())
                 {
-                    Log.Info("Database does not exist, creating a new database");
+                    LogTo.Info("Database does not exist, creating a new database");
 
                     if (!dbContext.Database.CreateIfNotExists())
                     {
-                        Log.Error("Failed to create the database");
+                        LogTo.Error("Failed to create the database");
                     }
                     else
                     {
-                        Log.Info("Created database");
+                        LogTo.Info("Created database");
                     }
                 }
             }
